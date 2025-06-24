@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Convertful - Your Ultimate On-Site Conversion Tool
- * Version: 2.7
+ * Version: 2.8
  * Plugin URI: https://convertful.com/
  * Description: All the modern on-site conversion solutions, natively integrates with all modern Email Marketing
  * Platforms. Author: Convertful Author URI: https://convertful.com License: GPLv2 or later License URI:
@@ -11,7 +11,7 @@
 
 // Global variables for plugin usage (global declaration is needed here for WP CLI compatibility)
 global $conv_file, $conv_dir, $conv_uri, $conv_version, $conv_config;
-$conv_version = '2.7';
+$conv_version = '2.8';
 $conv_file    = __FILE__;
 $conv_dir     = plugin_dir_path( __FILE__ );
 $conv_uri     = plugins_url( '', __FILE__ );
